@@ -54,6 +54,11 @@ spring.datasource.password=password
 mvn clean install
 mvn spring-boot:run
 ```
+#### Running as a JAR:
+```sh
+mvn clean package
+java -jar target/assessment-0.0.1-SNAPSHOT.jar
+```
 
 ### 4. Running Tests
 ```sh
