@@ -18,10 +18,10 @@ public class AddressBook {
     @JsonIgnore
     private Long id;
 
-    private String name; // Name of the address book
+    private String name;
 
     @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-    private List<Contact> contacts; // List of contacts in the address book
+    private List<Contact> contacts;
 
     public List<Contact> getContacts() {
         if (contacts == null) {

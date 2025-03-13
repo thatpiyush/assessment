@@ -17,7 +17,7 @@ public class Contact {
     @Schema(name = "ID", example = "1", hidden = true)
     private Long id;
 
-    @Pattern(regexp = "^[a-zA-Z\\s]+$", message = "Name should contain only alphabets and spaces")
+    @Pattern(regexp = "^[a-zA-Z\\s]+$", message = "Name should contain only alphabet letters and spaces")
     private String name;
 
     @Pattern(regexp = "^(\\+\\d{1,3}( )?)?((\\(\\d{3}\\))|\\d{3})[- .]?\\d{3}[- .]?\\d{4}$"
