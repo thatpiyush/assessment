@@ -27,7 +27,6 @@ Book1 \ Book2 = { “Bob”, “John” }
 Ensure you have the following installed:
 - Java 17+
 - Maven 3+
-- H2 DB
 
 ## Setup Instructions
 
